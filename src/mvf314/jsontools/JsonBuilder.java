@@ -71,6 +71,11 @@ public class JsonBuilder {
 		}
 	}
 
+	public JsonBuilder merge(JsonBuilder b) {
+		entries.addAll(b.entries);
+		return this;
+	}
+
 	public String get() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("{\n");
