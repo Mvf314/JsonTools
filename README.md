@@ -1,4 +1,4 @@
-#JSONTools
+# JSONTools
 JsonTools is a simple library written in Java that can programatically generate JSON.
 
 ## Usage
